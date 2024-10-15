@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+ *  Copyright (c) 2016 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+-->
+<html>
+    <head>
+
+    <title>PeerConnection video</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    </head>
+
+    <body>
+
+    <div id="wrapper">
+        <div id="container">
+            <div class="bottom-border">
+                <h2>PeerConnection</h2>
+                <p>
+                Edit <code>src/App.js</code> and save to reload.
+                </p>
+                <video id="leftVideo" playsinline controls muted>
+                    <source src='chrome.mp4' type="video/mp4"/>
+                    <p>This browser does not support the video element.</p>
+                </video>
+                <button id='callButton'>call</button>
+                <video id="rightVideo" playsinline autoplay controls></video>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    </body>
+</html>
